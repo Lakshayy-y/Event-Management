@@ -1,0 +1,33 @@
+
+    /* 1️⃣ Universal Selector — applies to all elements */
+    * {
+      font-family: Arial;
+      color: #333;
+    }
+
+    /* 2️⃣ Element Selector — applies to specific HTML elements */
+    h2 {
+      text-align: center;
+      color: rgb(255, 0, 0);
+    }
+
+    /* 3️⃣ ID Selector — targets an element with a specific id */
+    #main-list {
+      background-color: #f0f8ff;
+      padding: 15px;
+      border: 5px solid blue;
+      width: 300px;
+      margin: auto;
+    }
+
+    /* 4️⃣ Class Selector — used to style multiple elements of same type */
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+    
+    /* Styling nested lists */
+    ul ul {
+      color: purple;
+      list-style-type: circle;
+    }

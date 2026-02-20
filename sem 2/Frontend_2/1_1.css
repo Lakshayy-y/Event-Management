@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    width: 100vh;
+    background-color: antiquewhite;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (min-width:670px) and (max-width:990px) {
+    body{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (width<576px){
+    body{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

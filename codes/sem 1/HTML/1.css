@@ -1,0 +1,22 @@
+h1{
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align: center;
+    text-transform: uppercase;
+    height:100px;
+    width:100px;
+    border-width: 100px;
+    border-style:solid;
+    border-color: burlywood;
+}
+p{
+    color:rgb(109, 80, 255);
+    font-family: arial;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: normal;
+
+}
+#one{
+    font-size: 15px;
+}

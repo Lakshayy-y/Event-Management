@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #4c8bf5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.outer {
+  background: white;
+  padding: 40px;
+}
+
+.frame {
+  background: #ffe4c4;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-auto-rows: 80px;
+  gap: 12px;
+}
+
+/* Colors */
+.teal   { background: #1f7a8c; }
+.aqua   { background: #2ee6c8; }
+.yellow { background: #ffb000; }
+.pink   { background: #f5166c; }
+
+/* Sizes */
+.tall {
+  grid-row: span 2;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* Common styling */
+.box {
+  border-radius: 4px;
+}

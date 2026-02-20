@@ -1,0 +1,16 @@
+.lucky {
+
+        width: 20px;
+        padding: 10px;
+        border: 5px solid black;
+        background-color: lightblue;
+}
+p {
+    text-align: center;
+    color: rgb(0,0,255);
+    font-style: italic;
+    font-family: Arial;
+    font-size: 50px;
+    background-color: azure;
+    border: 2px solid greenyellow;
+}

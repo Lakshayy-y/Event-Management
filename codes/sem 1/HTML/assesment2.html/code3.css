@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.price .currency {
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.price .amount {
+  font-size: 40px;
+  margin: 0 4px;
+}
+
+.price .period {
+  font-size: 16px;
+  color: #666;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.features li.active {
+  color: #000;
+}
+
+.features li.active::before {
+  color: #fff;
+  background: #2563eb;
+}
+
+.features li.inactive {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.features li.inactive::before {
+  color: #999;
+  background: #e5e5e5;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}

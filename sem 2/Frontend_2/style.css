@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.form-select {
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.hero img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
